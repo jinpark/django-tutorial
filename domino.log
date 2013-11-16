@@ -1,0 +1,8 @@
+11:59:09,942  INFO Domino:89 - starting client
+11:59:09,948 DEBUG Domino:70 - CWD = /Users/jinpark/Documents/venv/djangotutorial/mysite
+11:59:09,993 DEBUG LoginCommand:70 - logging in to host: https://api.dominoup.com
+11:59:30,167  INFO ClientControllerProxy:89 - getting auth info from https://api.dominoup.com/loginFromInstaller
+11:59:31,949 DEBUG ClientControllerProxy:70 - response from server: {"host" : "https:\/\/api.dominoup.com", "user_id" : "5284fda5e4b0832664d65d10", "username" : "jin", "api_key" : "eJ2vRdU6cf7tT4LX5qo3PDTz8f0uOKVjDLqSaUyoOModvF1qPQQRGBr2Mydswjzm"}
+11:59:32,242 DEBUG LoginCommand:70 - response from server: InstallConfig(https://api.dominoup.com,5284fda5e4b0832664d65d10,jin,eJ2vRdU6cf7tT4LX5qo3PDTz8f0uOKVjDLqSaUyoOModvF1qPQQRGBr2Mydswjzm)
+11:59:32,255 DEBUG LoginCommand:70 - parsed username/id: {"host" : "https:\/\/api.dominoup.com", "user_id" : "5284fda5e4b0832664d65d10", "username" : "jin", "api_key" : "eJ2vRdU6cf7tT4LX5qo3PDTz8f0uOKVjDLqSaUyoOModvF1qPQQRGBr2Mydswjzm"}
+11:59:32,256 DEBUG LoginCommand:70 - writing config file to /Users/jinpark/.dominoconfig/install_config.json
